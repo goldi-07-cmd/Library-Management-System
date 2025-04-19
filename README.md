@@ -1,40 +1,35 @@
-# 📚 Library Management System (PPS Case Study)
+# 📚 Library Management System in C
 
-This is a **Library Management System** project created as part of a PPS case study at **C. V. Raman Global University**, Bhubaneswar. The project is implemented using **C language** with **Oracle database**, and frontend mockup using **HTML, CSS, and JavaScript** (as a conceptual design).
+Welcome to my first GitHub project! 🎉 This Library Management System, built in C, helps manage your books (or book collection!). 📖✨ It allows you to add, update, delete, issue, return, and search books by title, author, or ISBN. Simple, fun, and perfect for C beginners! 💻💙  
+It’s a great project for C enthusiasts, and I’m excited to share it with you! 🤗 Feel free to contribute, suggest improvements, or leave a comment!
 
-## 📄 Project Description
+---
 
-The system allows users to:
-- Add book details
-- View all books
-- Search books by author
-- Count total books
+## 📂 Project Files
 
-## 📁 Files Included
+- `C Code File.cpp` – Main C source code for the system  
+- `Library_Management_PPS_Case_Study.docx` – Detailed case study report  
+- `PPS Case Study.pdf` – Printable version of the report  
+- `PPS PPT.pptx` – PowerPoint presentation of the project  
 
-| File Name         | Description                              |
-|------------------|------------------------------------------|
-| `library.c`       | Source code for the library management   |
-| `case-study.docx` | Case study report                        |
-| `README.md`       | Project description for GitHub           |
+---
 
-## ⚙️ How to Run
+## 🛠️ Features
+
+- 📌 Add, update, delete books  
+- 📦 Issue and return books  
+- 🔍 Search by title, author, or ISBN  
+- 💾 File handling for data storage (no database required)  
+- 🖥️ Simple text-based menu system  
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository  
+2. Open the `C Code File.cpp` in any C-compatible IDE or compiler (like GCC, Code::Blocks, Turbo C, etc.)  
+3. Compile and run the program
 
 ```bash
-gcc library.c -o library
+gcc "C Code File.cpp" -o library
 ./library
-```
-
-## 🔍 Features
-
-- Structure-based book records
-- Add, search, display, and count books
-- Menu-driven interface
-- Uses `stdio.h`, `stdlib.h`, and `string.h` libraries
-
-## 🧾 References
-
-- GeeksForGeeks
-- CodeWithC
-- ChatGPT
-- Book: The C Programming Book by Ashok N. Kamthane
